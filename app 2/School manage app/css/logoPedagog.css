@@ -1,0 +1,54 @@
+body {
+  background-image: url(../figura/PED.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box {
+  width: 330px;
+  position: absolute;
+  height: 300px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+.box input[type="text"],
+input[type="password"] {
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 9px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type="text"]:focus,
+.box input[type="password"]:focus,
+.box input[type="email"]:focus {
+  width: 280px;
+  border-color: #2ecc71;
+}
+h1 {
+  text-align: center;
+}
+.btn {
+  font-size: 12px;
+  border: 3px solid rgb(220, 20, 60);
+  color: red;
+  border-radius: 100px;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  width: 80%;
+  text-align: center;
+}
+.btn:hover {
+  background: #0ff;
+  box-shadow: 0 5px 50px 0 #0ff inset, 0 5px 50px 0 #0ff,
+    0 5px 50px 0 #0ff inset, 0 5px 50px 0 #0ff;
+}

@@ -1,0 +1,71 @@
+body {
+  background: rgb(12, 59, 78);
+}
+.editbox {
+  width: 330px;
+  padding: 30px;
+  margin-left: 300px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.editbox input[type="text"],
+input[type="password"],
+input[type="email"] {
+  background: none;
+  display: block;
+  margin: 5px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+}
+
+.editbox input[type="text"]:focus,
+.editbox input[type="password"]:focus,
+.editbox input[type="email"]:focus {
+  width: 280px;
+  border-color: #2ecc71;
+}
+
+.btn {
+  color: rgb(224, 13, 59);
+  font-size: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 3px solid #0ff;
+  border-radius: 100px;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  width: 80%;
+}
+.btn:hover {
+  background: rgb(8, 233, 233);
+  box-shadow: 0 5px 50px 0 rgb(8, 233, 233) inset, 0 5px 50px 0 rgb(8, 233, 233),
+    0 5px 50px 0 #0ff inset, 0 5px 50px 0 #0ff;
+}
+
+.update {
+  border-radius: 8px;
+  width: 50%;
+}
+
+.updateimg {
+  border: 1px #cccccc solid;
+  padding: 105px;
+}
+
+.container {
+  background-color: rgb(180, 111, 111);
+  color: black;
+  width: 515px;
+  text-align: center;
+  font-style: italic;
+  padding: 10px 20px;
+}

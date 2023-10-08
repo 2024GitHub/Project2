@@ -1,0 +1,50 @@
+body{ 
+    background: rgb(105, 161, 184); 
+}
+h1{
+    text-align: center;
+    font-size: 22px;
+    color: red;
+    text-transform: uppercase;
+    margin-left: auto; margin-right: auto;
+}
+.viti1{
+    width: 330px;
+    padding: 10px 20px;
+    margin-left: 300px;
+    position: absolute;
+    top: 40%;
+    left: auto;
+    transform: translate(-50%,-50%);
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+.viti1 input[type="text"],input[type="password"],input[type="email"]{
+    margin: 10px 0;
+    border: 0;
+    background: transparent;
+    border-bottom: 2px solid rgb(15, 15, 15);
+    width: 230px;
+}
+label{
+    color: brown;
+}
+
+.viti2{
+    width: 330px;
+    padding: 10px 20px;
+    margin-left: 300px;
+    position: absolute;
+    top: 40%;
+    left: 630px;
+    transform: translate(-50%,-50%);
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+.viti2 input[type="text"],input[type="password"],input[type="email"]{
+    margin: 10px 0;
+    border: 0;
+    background: transparent;
+    border-bottom: 2px solid rgb(15, 15, 15);
+    width: 250px;
+}
